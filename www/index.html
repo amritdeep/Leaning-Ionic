@@ -89,13 +89,27 @@
           <textarea placeholder="Comments"></textarea>
         </label>
         
+        <!-- Play with checkbox -->
         <div class="item item-divider">I want to be ...</div>
 
-        <ioc-list>
+        <ion-list>
           <ion-checkbox ng-model="filter.red">Ruby Developer</ion-checkbox>
           <ion-checkbox ng-model="filter.yellow">Python Developer</ion-checkbox>
           <ion-checkbox ng-model="filter.pink">DevOps</ion-checkbox>
-        </ioc-list>
+          <ion-checkbox ng-model="filter.blue">ios</ion-checkbox>
+        </ion-list>
+         
+        <!-- Play with Radio button    -->
+        <div class="item item-divider">What are you doing currently ?????</div>  
+
+        <ion-list>
+          <ion-radio ng-model="choice" ng-value="Ruby">Ruby</ion-radio>
+          <ion-radio ng-model="choice" ng-value="Phython">Phython</ion-radio>
+          <ion-radio ng-model="choice" ng-value="DevOps">DevOps</ion-radio>
+          <ion-radio ng-model="choice" ng-value="ios">ios</ion-radio>
+        </ion-list>
+
+
 
         <button class="button button-full button-dark">Create a account</button>
     
