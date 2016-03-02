@@ -170,6 +170,33 @@
           <ion-radio ng-model="choice" ng-value="ios">ios</ion-radio>
         </ion-list>
 
+        
+        <!-- Play with Range -->
+        <div class="item item-divider">Setting</div>
+
+        <div class="item range">
+          <i class="icon ion-volume-low"></i>
+          <input type="range" name="volume">
+          <i class="icon ion-volume-high"></i>
+        </div>
+
+        <div class="list">
+          
+          <div class="item range range-positive">
+            <i class="icon ion-ios-lightbulb-outline"></i>
+            <input type="range" name="brightness" min="0" max="100" value="10">
+            <i class="icon ion-ios-lightbulb"></i>
+          </div>
+
+          <div class="item range dark">
+            <i class="icon ion-ios-partlysunny-outline"></i>
+            <input type="range" name="sunny" min="20" max="100" value="70">
+            <i class="icon ion-ios-sunny"></i>
+          </div>
+
+
+        </div>
+
 
 
 
