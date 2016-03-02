@@ -84,7 +84,19 @@
         <label class="item item-input">
           <input type="text" placeholder="Email">
         </label>
-    
+
+        <label class="item item-input">
+          <textarea placeholder="Comments"></textarea>
+        </label>
+        
+        <div class="item item-divider">I want to be ...</div>
+
+        <ioc-list>
+          <ion-checkbox ng-model="filter.red">Ruby Developer</ion-checkbox>
+          <ion-checkbox ng-model="filter.yellow">Python Developer</ion-checkbox>
+          <ion-checkbox ng-model="filter.pink">DevOps</ion-checkbox>
+        </ioc-list>
+
         <button class="button button-full button-dark">Create a account</button>
     
       </div>
